@@ -13,7 +13,7 @@ class MlqSchema(MlqAst):
     type = 2
     description = "MLQ Schema report"
     schema = json.load(
-        open(f'{current_path}/files/schema.json', encoding="utf-8"))
+        open(f'{current_path}/../files/schema.json', encoding="utf-8"))
     schema_report = {}
     schema_output_path = "raporlar/excel_reports/mlq_reports/schema_report.xlsx"
 

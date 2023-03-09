@@ -1,4 +1,5 @@
 import json
+import pathlib
 import string
 import numpy as np
 import pandas as pd
@@ -9,9 +10,10 @@ from src.utilities import get_number_from_question, is_question
 
 
 class MlqAst(BasePersonalityTest):
+    mlq_path = pathlib.Path(__file__).parent.resolve()
 
     def __init__(self, non_manager_path: str, manager_path: str, colors, passwords_path: str=None):
-        self.passwords = json.load(open(passwords_path, encoding="utf-8")) if passwords_path else json.load(open(f"{self.current_path}/files/passwords.json", encoding="utf-8"))
+        self.passwords = json.load(open(passwords_path, encoding="utf-8")) if passwords_path else json.load(open(f"{self.mlq_path}/../files/passwords.json", encoding="utf-8"))
         self.exact_copy = None
         if colors is None:
             colors = {'very_bad': "#FF00F4", 'bad': "#CD7F32", 'okey': "#C9CC3F", 'good': "#4CBB17",
