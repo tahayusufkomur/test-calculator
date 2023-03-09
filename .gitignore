@@ -2,7 +2,7 @@
 idea/
 *.pyc
 __pycache__
-
+.idea
 .installed.cfg
 bin
 develop-eggs
@@ -35,7 +35,7 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
-
+.pytest_cache
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
