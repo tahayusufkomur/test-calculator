@@ -24,7 +24,7 @@ def rdo():
     # get paths
     test_path, output_path, text_output_dir, temp_dir, password_path = common_paths(path)
 
-    return Rotterdam(test_path=test_path+"RDO.xlsx",
+    return Rotterdam(test_path=test_path+"rdo.xlsx",
                      output_path=output_path,
                      text_output_path=text_output_dir,
                      temp_dir=temp_dir,
@@ -35,7 +35,7 @@ def rdo():
 def test_rdo(rdo):
     rdo.create_report()
 
-    expected_df_path = f"{path}/../resources/expected_reports/RDO.xlsx"
+    expected_df_path = f"{path}/../resources/expected_reports/rdo.xlsx"
 
     result_df = pd.read_excel(rdo.output_path, engine='openpyxl')
     result_df = result_df.dropna()

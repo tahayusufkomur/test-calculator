@@ -5,7 +5,7 @@ from src.base_personality_test import BasePersonalityTest
 
 class Minesota(BasePersonalityTest):
 
-    name = "Minesota"
+    name = "minesota"
     type = 2
     description = "Minesota"
 

@@ -7,7 +7,7 @@ from src.personality_tests.mlq_ast import MlqAst
 
 class MlqSchema(MlqAst):
 
-    name = "MLQ-Schema"
+    name = "mlq-schema"
     type = 2
     description = "MLQ Schema report"
     schema = json.load(

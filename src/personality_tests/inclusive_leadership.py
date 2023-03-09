@@ -5,7 +5,7 @@ from src.base_personality_test import BasePersonalityTest
 
 class InclusiveLeadership(BasePersonalityTest):
 
-    name = "Kapsayıcı Liderlik"
+    name = "kapsayici liderlik"
     type = 2
     description = "Kapsayıcı Liderlik"
 

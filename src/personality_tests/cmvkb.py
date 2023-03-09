@@ -9,7 +9,7 @@ class Cmvkb(BasePersonalityTest):
     kuruma_baglilik = 27
     ic_motivasyon = 27
 
-    name = "ÇMVKB"
+    name = "cmvkb"
     type = 2
     description = "Çalışan motivasyonu ve kurumsal bağlılık testi"
 

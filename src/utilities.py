@@ -107,7 +107,7 @@ def create_text_report(input_dir, output_dir):
     for file in os.listdir(dir_path):
         if file.endswith("text.xlsx"):
             files.append(file)
-    ordered_list = ['B5KT-text.xlsx', 'ÇMVKB-text.xlsx', 'ÇİPTÖ-text.xlsx']
+    ordered_list = ['b5kt-text.xlsx', 'cmvkb-text.xlsx', 'cipto-text.xlsx']
     paths = []
     for file in ordered_list:
         if file in files:

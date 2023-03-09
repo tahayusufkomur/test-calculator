@@ -24,7 +24,7 @@ def five_factor():
     # get paths
     test_path, output_path, text_output_dir, temp_dir, password_path = common_paths(path)
 
-    return FiveFactor(test_path=test_path + "B5KT.xlsx",
+    return FiveFactor(test_path=test_path + "b5kt.xlsx",
                       output_path=output_path,
                       text_output_path=text_output_dir,
                       temp_dir=temp_dir,
@@ -35,7 +35,7 @@ def five_factor():
 def test_five_factor(five_factor):
     five_factor.create_report()
 
-    expected_df_path = f"{path}/../resources/expected_reports/B5KT.xlsx"
+    expected_df_path = f"{path}/../resources/expected_reports/b5kt.xlsx"
 
     result_df = pd.read_excel(five_factor.output_path, engine='openpyxl')
     result_df = result_df.dropna()

@@ -31,7 +31,6 @@ def main():
                 colors[key] = None
 
     import os
-    success_list = []
 
     file_names = os.listdir(answers_path)
     files = {}
@@ -66,60 +65,50 @@ def main():
     df.to_excel(f"{CURRENT_DIR}/raporlar/temp_files/all_reports.xlsx", engine='openpyxl', index=False)
 
     # five factor test
-    if "B5KT" in files:
-        five_factor_test = FiveFactor(files["B5KT"], colors=colors)
+    if "b5kt" in files:
+        five_factor_test = FiveFactor(files["b5kt"], colors=colors)
         five_factor_test.create_report()
-        success_list.append("B5KT")
 
     # rotterdam
-    if "RDO" in files:  # rotterdam
-        rotterdam_test = Rotterdam(files["RDO"], colors=colors)
+    if "rdo" in files:  # rotterdam
+        rotterdam_test = Rotterdam(files["rdo"], colors=colors)
         rotterdam_test.create_report()
-        success_list.append("RDO")
 
     # PLO potansiyel liderlik ölçeği
-    if "PLO" in files:  # PLO
-        plo_test = PLO(files['PLO'], colors=colors)
+    if "plo" in files:  # PLO
+        plo_test = PLO(files['plo'], colors=colors)
         plo_test.create_report()
-        success_list.append("PLO")
 
     # # # ÇİPTÖ: Çalışanların iş yerindeki problemlere verdikleri tepkiler ölçeği
-    if "ÇİPTÖ" in files:  #
-        cipto_test = Cipto(files['ÇİPTÖ'], colors=colors)
+    if "cipto" in files:  #
+        cipto_test = Cipto(files['cipto'], colors=colors)
         cipto_test.create_report()
-        success_list.append("ÇİPTÖ")
 
     # minesota
-    if "MİTÖ" in files:  #
-        minesota_test = Minesota(files['MİTÖ'], colors=colors)
+    if "mito" in files:  #
+        minesota_test = Minesota(files['mito'], colors=colors)
         minesota_test.create_report()
-        success_list.append("MİTÖ")
 
     # Çalışan motivasyonu ve kurumsal bağlılık testi
-    if "ÇMVKB" in files:  #
-        cmvkb_test = Cmvkb(files['ÇMVKB'], colors=colors)
+    if "cmvkb" in files:  #
+        cmvkb_test = Cmvkb(files['cmvkb'], colors=colors)
         cmvkb_test.create_report()
-        success_list.append("ÇMVKB")
 
     # MLQ Çoklu Liderlik Alt Faktörleri
-    if "MLQ-AST" and "MLQ-UST" in files:
-        mlqast_test = MlqAst(non_manager_path=files['MLQ-AST'], manager_path=files['MLQ-UST'], colors=colors)
+    if "mlq-ast" and "mlq-ust" in files:
+        mlqast_test = MlqAst(non_manager_path=files['mlq-ast'], manager_path=files['mlq-ust'], colors=colors)
         mlqast_test.create_report()
-        success_list.append("MLQ-AST")
-        success_list.append("MLQ-UST")
 
         # create schema report
-        MlqSchema(non_manager_path=files['MLQ-AST'], manager_path=files['MLQ-UST'], colors=colors).create_report()
+        MlqSchema(non_manager_path=files['mlq-ast'], manager_path=files['mlq-ust'], colors=colors).create_report()
 
-    if "Performance" in files:  #
-        performance_test = Performance(files['Performance'], colors=colors)
+    if "performance" in files:  #
+        performance_test = Performance(files['performance'], colors=colors)
         performance_test.create_report()
-        success_list.append("Performance")
 
     if "Varis" in files:  #
         performance_test = VarisPerformance(files['Varis'], colors=colors)
         performance_test.create_report()
-        success_list.append("Varis")
 
     if files:
         Attendance(files).create_report()
@@ -133,3 +122,7 @@ def main():
     if os.path.isdir(f'{CURRENT_DIR}/raporlar/temp_files'):
         import shutil
         shutil.rmtree(f'{CURRENT_DIR}/raporlar/temp_files')
+
+
+if __name__ == '__main__':
+    main()

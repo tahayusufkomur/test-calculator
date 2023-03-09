@@ -5,7 +5,7 @@ from src.base_personality_test import BasePersonalityTest
 
 class Cipto(BasePersonalityTest):
 
-    name = "ÇİPTÖ"
+    name = "cipto"
     type = 2
     description = "Çalışanların iş yerindeki problemlere verdikleri tepkiler ölçeği"
     scoring = {

@@ -4,7 +4,7 @@ from src.base_personality_test import BasePersonalityTest, get_number_from_quest
 
 class FiveFactor(BasePersonalityTest):
 
-    name = "B5KT"
+    name = "b5kt"
     type = 1
 
     scoring = {

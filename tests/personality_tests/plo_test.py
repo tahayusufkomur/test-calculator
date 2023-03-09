@@ -23,7 +23,7 @@ def plo():
     # get paths
     test_path, output_path, text_output_dir, temp_dir, password_path = common_paths(path)
 
-    return PLO(test_path=test_path+"PLO.xlsx",
+    return PLO(test_path=test_path+"plo.xlsx",
                output_path=output_path,
                text_output_path=text_output_dir,
                temp_dir=temp_dir,
@@ -34,7 +34,7 @@ def plo():
 def test_plo(plo):
     plo.create_report()
 
-    expected_df_path = f"{path}/../resources/expected_reports/PLO.xlsx"
+    expected_df_path = f"{path}/../resources/expected_reports/plo.xlsx"
 
     result_df = pd.read_excel(plo.output_path, engine='openpyxl')
     result_df = result_df.dropna()

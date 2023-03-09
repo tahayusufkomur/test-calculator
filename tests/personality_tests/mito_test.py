@@ -23,7 +23,7 @@ def mito():
     # get paths
     test_path, output_path, text_output_dir, temp_dir, password_path = common_paths(path)
 
-    return Minesota(test_path=test_path+"MİTÖ.xlsx",
+    return Minesota(test_path=test_path+"mito.xlsx",
                     output_path=output_path,
                     text_output_path=text_output_dir,
                     temp_dir=temp_dir,
@@ -34,7 +34,7 @@ def mito():
 def test_mito(mito):
     mito.create_report()
 
-    expected_df_path = f"{path}/../resources/expected_reports/MİTÖ.xlsx"
+    expected_df_path = f"{path}/../resources/expected_reports/mito.xlsx"
 
     result_df = pd.read_excel(mito.output_path, engine='openpyxl')
     result_df = result_df.dropna()

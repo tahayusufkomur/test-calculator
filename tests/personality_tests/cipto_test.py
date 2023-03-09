@@ -23,7 +23,7 @@ def cipto():
     # get paths
     test_path, output_path, text_output_dir, temp_dir, password_path = common_paths(path)
 
-    return Cipto(test_path=test_path + "ÇİPTÖ.xlsx",
+    return Cipto(test_path=test_path + "cipto.xlsx",
                  output_path=output_path,
                  text_output_path=text_output_dir,
                  temp_dir=temp_dir,
@@ -34,7 +34,7 @@ def cipto():
 def test_cipto(cipto):
     cipto.create_report()
 
-    expected_df_path = f"{path}/../resources/expected_reports/ÇİPTÖ.xlsx"
+    expected_df_path = f"{path}/../resources/expected_reports/cipto.xlsx"
 
     result_df = pd.read_excel(cipto.output_path, engine='openpyxl')
     result_df = result_df.dropna()

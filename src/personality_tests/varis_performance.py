@@ -7,7 +7,7 @@ from src.base_personality_test import BasePersonalityTest
 
 class VarisPerformance(BasePersonalityTest):
 
-    name = "Varis Performance"
+    name = "varis"
     type = 2
     description = "Varisler için özel performans testi"
     sort_columns = ['Kendi adınızı seçiniz.']

@@ -37,7 +37,6 @@ class BasePersonalityTest:
         os.mkdir(f'{current_path}/raporlar')
 
     passwords_path = f"{current_path}/files/passwords.json"
-    passwords = json.load(open(passwords_path, encoding="utf-8"))
 
     should_be_same = [
     ]
@@ -66,8 +65,7 @@ class BasePersonalityTest:
                       'very_good': "#40E0D0"}
 
         # output and temp working dirs
-        if passwords_path:
-            self.passwords = json.load(open(passwords_path, encoding="utf-8"))
+        self.passwords = json.load(open(passwords_path, encoding="utf-8")) if passwords_path else json.load(open(f"{self.current_path}/files/passwords.json", encoding="utf-8"))
         self.output_path = f"{self.current_path}/raporlar/excel_reports/{self.name}-rapor-{self.date}.xlsx" if not output_path else output_path + f"/{self.name}.xlsx"
         self.text_output_dir = f"{self.current_path}/raporlar/text_reports" if not text_output_path else text_output_path
         self.text_output_person = f"{self.text_output_dir}/person_reports/{self.name}-rapor-{self.date}.docx" if not text_output_person else text_output_person

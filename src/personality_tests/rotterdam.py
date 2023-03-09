@@ -5,7 +5,7 @@ from src.base_personality_test import BasePersonalityTest, get_number_from_quest
 
 class Rotterdam(BasePersonalityTest):
 
-    name = "Rotterdam"
+    name = "rdo"
     type = 2
 
     scoring_a = {

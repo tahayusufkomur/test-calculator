@@ -23,7 +23,7 @@ def cmvkb():
     # get paths
     test_path, output_path, text_output_dir, temp_dir, password_path = common_paths(path)
 
-    return Cmvkb(test_path=test_path+"ÇMVKB.xlsx",
+    return Cmvkb(test_path=test_path+"cmvkb.xlsx",
                  output_path=output_path,
                  text_output_path=text_output_dir,
                  temp_dir=temp_dir,
@@ -34,7 +34,7 @@ def cmvkb():
 def test_cmvkb(cmvkb):
     cmvkb.create_report()
 
-    expected_df_path = f"{path}/../resources/expected_reports/ÇMVKB.xlsx"
+    expected_df_path = f"{path}/../resources/expected_reports/cmvkb.xlsx"
 
     result_df = pd.read_excel(cmvkb.output_path, engine='openpyxl')
     result_df = result_df.dropna()

@@ -5,7 +5,7 @@ from src.base_personality_test import BasePersonalityTest
 
 class PLO(BasePersonalityTest):
 
-    name = "PLO"
+    name = "plo"
     type = 3
     description = "Potansiyel liderlik ölçeği"
 

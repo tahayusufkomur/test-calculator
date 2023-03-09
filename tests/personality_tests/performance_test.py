@@ -1,5 +1,4 @@
 import os
-
 import pytest
 from src.personality_tests.performance import Performance
 import pandas as pd
@@ -23,17 +22,18 @@ def performance():
     # get paths
     test_path, output_path, text_output_dir, temp_dir, password_path = common_paths(path)
 
-    return Performance(test_path=test_path+"Performance.xlsx",
+    return Performance(test_path=test_path+"performance.xlsx",
                        output_path=output_path,
                        text_output_path=text_output_dir,
-                       temp_dir=temp_dir
+                       temp_dir=temp_dir,
+                       passwords_path=password_path
                        )
 
 
 def test_performance(performance):
     performance.create_report()
 
-    expected_df_path = f"{path}/../resources/expected_reports/Performance.xlsx"
+    expected_df_path = f"{path}/../resources/expected_reports/performance.xlsx"
 
     # drop na
     result_df = pd.read_excel(performance.output_path, engine='openpyxl')

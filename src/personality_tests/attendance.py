@@ -6,7 +6,7 @@ import pandas as pd
 
 
 class Attendance:
-    name = "Attendance"
+    name = "attendance"
     type = 2
     description = "Minesota"
     current_path = pathlib.Path(__file__).parent.resolve()
@@ -24,7 +24,8 @@ class Attendance:
         self.EXTENDED_UPPERCASE_ALPHABET = list(string.ascii_uppercase) + ['A' + i for i in string.ascii_uppercase]
 
     def create_report(self):
-        del self.passwords['regex']
+        if "regex" in self.passwords.keys():
+            del self.passwords['regex']
         # list to delete tests that no need attendance check
         del_list = []
         for file, path in self.files.items():

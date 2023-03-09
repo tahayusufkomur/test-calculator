@@ -8,7 +8,7 @@ from src.utilities import get_number_from_question
 
 class Performance(BasePersonalityTest):
 
-    name = "Performance"
+    name = "performance"
     type = 2
     description = "Çalışan performans değerlendirmesi"
 
