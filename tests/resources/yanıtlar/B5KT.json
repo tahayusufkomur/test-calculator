@@ -1,0 +1,283 @@
+{
+    "1":
+    {
+        "1": "Özellikle toplantılarda dikkat çekici davranışlardan uzak durur, fikrini ortaya koymaz, pasif ve görünmez olmayı tercih eder.",
+        "2": "Özellikle toplantılarda dikkat çekmek istemez, fikrini ortaya koymaz, pasif kalmayı tercih eder. ",
+        "3": "Özellikle toplantılarda sorulmadıkça kendi fikrini ortaya koymaz, dikkatleri üzerine çekmemeyi tercih eder, dinleyici ve izleyici olmayı tercih edebilir.",
+        "4": "Özellikle toplantılarda dikkat çekmekten rahatsız olmaz, fikirlerini rahatça paylaşır, ortamda kendini rahatça ifade edebilir.",
+        "5": "Özellikle toplantılarda dikkat çekmek ister, fikirleri paylaşmak ve konuşmak için gayret gösterir, toplantının gözdesi olmak ister."
+    },
+    "6":
+    {
+        "5": "Çok konuşur, genellikle dinlemek yerine konuşmayı öncelik yapabilir.",
+        "4": "Konuşkandır.",
+        "3": "Gerekmedikçe kalabalık ortamlara girmeyi tercih etmez.",
+        "2": "Konuşkan biri değildir.",
+        "1": "Çok konuşmaz, dinlemeyi öncelik yapar."
+    },
+    "11":
+    {
+        "1": "Kalabalık ve sosyal ortamlarda kendini çok rahatsız, çok gergin, çok stresli ve çok mutsuz hisseder.",
+        "2": "Kalabalık ve sosyal ortamlarda kendini rahatsız, gergin ve mutsuz hisseder.",
+        "3": "Gerekmedikçe kalabalık ortamlara girmeyi tercih etmez.",
+        "4": "Kalabalık ve sosyal ortamlarda kendini rahat, enerjik, canlı ve mutlu hisseder.",
+        "5": "Kalabalık ve sosyal ortamlarda kendini çok rahat, çok enerjik, çok canlı ve mutlu hisseder."
+    },
+    "16":
+    {
+        "5": "Arka planda olmak istemez, ön planda olmayı tercih eder.",
+        "4": "Arka planda kalmayı tercih etmez.",
+        "3": "Arka planda olmak veya olmamak onu rahatsız etmez.",
+        "2": "Arka planda kalmayı tercih eder.",
+        "1": "Ön planda olmamak için arka planda kalmayı tercih eder."
+    },
+    "21":
+    {
+        "1": "Başkalarıyla iletişim kurmak istemez, sosyal ilişkilerde çekingen ve içe dönük davranır.",
+        "2": "Başkalarıyla iletişim kurmada başlangıçları karşı taraftan bekleyen, kendisi yapmayı tercih etmez.",
+        "3": "Gerekmedikçe iletişimi ve konuşmayı başlatmaz.",
+        "4": "Başkalarıyla iletişim kurarken genelde konuşmayı başlatan kişidir, girişken ve faaldir.",
+        "5": "Başkalarıyla iletişim kurmada girişken, sosyal ilişkilerde faal, genelde konuşmayı başlatan ve dışa dönük davranan kişidir."
+    },
+    "26":
+    {
+        "5": "Konuşmayı sever, söyleyecek çok şeyi vardır. ",
+        "4": "Söyleyecek şeyleri vardır, konuşmak ister.",
+        "3": "Fikri sorulmadıkça konuşmaz.",
+        "2": "Çok konuşmaz, çok fikir beyan etmez.",
+        "1": "Konuşmayı sevmez, söyleyecek çok şeyi yoktur."
+    },
+    "31":
+    {
+        "1": "Tanımadığı /yabancı insanlarla bir araya gelmekten ve onlarla iletişim kurmaktan hiç hoşlanmaz.",
+        "2": "Tanımadığı /yabancı insanlarla bir araya gelmekten ve iletişim kurmaktan hoşlanmaz.",
+        "3": "Mecbur kalmadıkça tanımadığı /yabancı insanlarla iletişim kurmayı tercih etmez.",
+        "4": "Tanımadığı /yabancı insanlarla bir araya gelmekten ve iletişim kurmaktan hoşlanır.",
+        "5": "Tanımadığı /yabancı insanlarla bir araya gelmekten ve onlarla iletişim kurmaktan çok keyif alır."
+    },
+
+    "36":
+    {
+        "5": "Dikkatlerin kendi üzerinde olmasından hoşlanır, keyif alır.",
+        "4": "Dikkatlerin kendi üzerinde olmasını ister.",
+        "3": "Dikkatlerin kendi üzerinde olması da olmaması da çok önemli değildir.",
+        "2": "Dikkatlerin kendi üzerinde olmasını istemez.",
+        "1": "Dikkatlerin kendi üzerinde olmasından rahatsızlık duyar ve hoşlanmaz."
+    },
+    "41":
+    {
+        "1": "İlgi odağı olmaktan hoşlanmaz ve ilgi odağı olmaktan rahatsız olur.",
+        "2": "İlgi odağı olmaktan rahatsızlık duyar.",
+        "3": "İlgi odağı olmak veya olmamak için çaba sarf etmez, önemli değildir.  ",
+        "4": "İlgi odağı olmaktan rahatsızlık duymaz.",
+        "5": "İlgi odağı olmaktan hoşlanır ve ilgi odağı olmak ister."
+    },
+    "46":
+    {
+        "5": "Yabancılar arasında genelde sessiz değildir, iletişim kurup, konuşmayı tercih eder.",
+        "4": "Yabancılar arasında konuşkan ve girişkendir.",
+        "3": "Gerekmedikçe yabancılar arasında konuşmaz.",
+        "2": "Yabancılar arasında az konuşmayı tercih eder.",
+        "1": "Yabancılar arasında genelde sessiz olmayı tercih eder, iletişim kurmaz."
+    },
+    "2":
+    {
+        "5": "Her zaman insanların duygu ve problemleriyle ilgilenmek ister ve sorunlarının çözümüne zaman ayırır,  çevresine karşı oldukça duyarlıdır.",
+        "4": "İnsanların duygu ve problemleriyle ilgilenmek ve onların çözümüne zaman ayırmak ister,  çevresine karşı duyarlıdır.",
+        "3": "Başka insanların duygularına ve sorunlarına kimi zaman duyarlı ve hassastır, kimi zaman değildir.",
+        "2": "İnsanların duygu ve problemleriyle ilgilenmek ve onların çözümüne zaman ayırmak istemez,  çevresine duyarlı değildir.",
+        "1": "Hiçbir zaman insanların duygu ve problemleriyle ilgilenmek ve onların çözümüne zaman ayırmak istemez,  çevresine hiç duyarlı değildir."
+    },
+    "7":
+    {
+        "1": "Hiç bir zaman çevresindeki insanların duygu ve sorunlarıyla ilgilenmek ve zaman ayırmak istemez, çevresine karşı duyarsızdır.",
+        "2": "Çevresindeki insanların duygu ve sorunlarıyla ilgilenmez ve onlara zaman ayırmak istemez, çevresine karşı duyarlı değildir.",
+        "3": "Çevresindeki insanlarla kimi zaman ilgilenmek ve onlara zaman ayırmak ister, kimi zaman ilgilenmek ve onlara zaman ayırmak istemez, kararsızdır. ",
+        "4": "Çevresindeki insanların duygu ve sorunlarıyla ilgilenmek ve zaman ayırmak ister, çevresine karşı hassas ve duyarlıdır.",
+        "5": "Çevresindeki insanların duygu ve sorunlarıyla ilgilenmek ister, onlara zaman ayırır, çevresine karşı hassas ve duyarlıdır."
+    },
+    "12":
+    {
+        "5": "Asla hakaret olacağını düşündüğü bir şey söylemez.",
+        "4": "Hakaret olacağını düşündüğü bir şey söylemez.",
+        "3": "Bazen karşısındaki kişiyi incitici, hoş olmayan ifadeler kullanabilir.",
+        "2": "İnsanlara hakaret içeren, hoş olmayan sözler söyleyebilir.",
+        "1": "İnsanlara hakaret içeren, hoş olmayan, kışkırtıcı sözler söyleyebilir."
+    },
+    "17":
+    {
+        "1": "İş arkadaşlarının ve çevresindeki kişilerin duygularını kolayca hissedemez ve anlayamaz, empati kuramaz. Başkalarıyla ilişkilerinde paylaşımcı, rahatlatıcı ve verici değildir. Takım çalışmasına uygun değildir.",
+        "2": "İş arkadaşlarının ve çevresindeki kişilerin duygularını hissetme, anlama ve onlarla empati kurmakta zorlanır. Başkalarıyla ilişkilerinde paylaşımcı, rahatlatıcı ve verici değildir. Takım çalışmasında çok zorlanabilir.",
+        "3": "Başkalarının duygularını kimi zaman anlama, paylaşma ve hissetme konusunda kararsızlık yaşayabilir, bazen empati kurmakta ve takım çalışması gereken durumlarda bazen zorlanabilir. ",
+        "4": "İş arkadaşlarının ve çevresindeki kişilerin duygularını anlama ve empati kurmada başarılı, ilişkilerinde paylaşımcı ve rahatlatıcıdır. Takım çalışması gerektiren işlere yatkındır.",
+        "5": "İş arkadaşlarının ve çevresindeki kişilerin duygularını kolayca anlama, empati kurma ve onların duygularını hissetmede çok başarılıdır. Başkalarıyla ilişkilerinde çok paylaşımcı, rahatlatıcı ve vericidir. Takım çalışması gereken işler için çok uygundur."
+    },
+    "27":
+    {
+        "1": "Başkalarına karşı sert, hoşgörüden uzak ve tepkiseldir.",
+        "2": "Çevresine ve olaylara karşı yumuşak kalpli değildir, serttir ve hoşgörülü davranamaz. ",
+        "3": "Ne yumuşak kalpli ne sert bir kişiliktir. ",
+        "4": "Yumuşak kalplidir ve merhametlidir.",
+        "5": "Yumuşak kalpli, merhametli ve hoşgörülüdür."
+    },
+    "3":
+    {
+        "1": "Plansızdır, kurallara çok bağlı olmayı sevmez, temkinli ve tedbirli hareket etmek, hazırlıklı olmak yerine daha çok fevri ve anlık kararlarla hareket edebilir. “Düşük özdenetimli”dir.",
+        "2": "İşlerini planlayarak ve düzenli şekilde yapmaz, oluşabilecek sorunlara karşı hazırlıklı, temkinli ve tedbirli değildir.",
+        "3": "İş hayatında bazen hazırlıklı bazen değildir.",
+        "4": "Temkinli, tedbirli ve bir amaç için hazırlıklı olmayı ister.  “özdenetimli”dir. ",
+        "5": "Her zaman temkinli ve tedbirlidir, sorumluluk bilinci yüksek, “Yüksek özdenetimli”dir."
+    },
+    "8":
+    {
+        "5": "Daima düzenli, tertipli ve planlıdır, dağınık çalışmaz, kişisel eşyalarını etrafta bırakmaz.",
+        "4": "Düzenli ve tertiplidir, dağınık çalışmaz, kişisel eşyalarını ortalıkta bırakmaz",
+        "3": "Bazen dağınık ve düzensiz çalışır ve kişisel eşyalarını orada burada unutabilir. ",
+        "2": "Dağınık çalışır, kişisel eşyalarını orada burada bırakır, düzensiz ve plansızdır.",
+        "1": "Daima dağınık çalışır, kişisel eşyalarını orada burada bırakır, düzensiz ve plansızdır."
+    },
+    "28":
+    {
+        "5": "Daima düzenli, tertipli ve sorumluluk bilinci yüksektir.  ",
+        "4": "Düzenli, tertipli ve sorumluluk sahibidir.",
+        "3": "Kimi zaman unutkan ve dağınıktır, kişisel eşyalarını ortalıkta unutabilir kimi zaman düzenli ve dikkatlidir.",
+        "2": "Dağınıktır, unutkandır ve dikkati dağınıktır, kullandığı eşyaları yerine koymayı unutabilir.",
+        "1": "Aşırı dağınıktır, unutkandır ve dikkati çabuk dağılabilir, kullandığı eşyaları geri yerine koymayı genelde unutur. "
+    },
+    "13":
+    {
+        "1": "Çoğunlukla dikkati dağınıktır, buna bağlı olarak detayları kaçırır ve işini titizlikle yerine getiremez.",
+        "2": "Çoğunlukla dikkati dağınık olabilir buna bağlı olarak detayları kaçırabilir ve işini titizlikle yapmakta zorlanabilir.",
+        "3": "Bazen dikkati dağıldığında detayları kaçırabilir ve işinde hatalar yapabilir.",
+        "4": "Detaylara dikkat eden, işinde titiz çalışan, görev insanıdır.",
+        "5": "Çok detaycı ve işinde titiz çalışan, tam bir görev insanıdır."
+    },
+    "18":
+    {
+        "5": "Her zaman işlerini karmaşık hale gelmeden, düzenli, planlı ve organize şekilde yapar.",
+        "4": "İşler karmaşık hale gelmeden, düzenli ve planlı çalışmayı sever.",
+        "3": "İşlerini kimi zaman düzenli ve planlı kimi zaman karmaşık ve plansız yapar.",
+        "2": "İşlerini karmakarışık şekilde, gelişigüzel ve plansızca yapar.  ",
+        "1": "Çoğunlukla işlerini karmakarışık şekilde, plansız ve düzensizce yapar. "
+    },
+    "23":
+    {
+        "1": "Çoğunlukla işlerini hızlıca halledemez, yavaş hareket ettiği ve ertelediği için işlerin birikmesine neden olur.",
+        "2": "Bazen işlerini hızlıca halledemez, yavaş hareket ettiği ve ertelediği için işlerin birikmesine neden olur.",
+        "3": "İşlerini kimi zaman hızlıca hemen hallederken, kimi zaman erteleyebilir.",
+        "4": "İişlerini hızlıca, hemen halletmeyi sever.",
+        "5": "Çoğunlukla işlerini hızlıca halleder. "
+    },
+    "43":
+    {
+        "1": "Hiç işlerini planlayarak yapamaz ve iş takibinde sürekli sorun yaşar.",
+        "2": "İşlerini planlayarak yapmaz ve bu nedenle iş takibinde sorun yaşar.",
+        "3": "Bazen planlı ve takipçi bazen de plansız ve gelişigüzeldir.",
+        "4": "İşlerini planlar ve takip ederek, planına uygun hareket eder.",
+        "5": "Her zaman işlerini planlar ve bu plana uygun hareket etmeyi sever."
+    },
+    "38":
+    {
+        "5": "Son derece sorumluluklarının ve görevlerinin bilincindedir. Tam bir görev insanıdır ve verilen görevleri kurallarına bağlı olarak, kararlı bir şekilde yerine getirir. ",
+        "4": "Sorumluluklarının ve görevlerinin bilincindedir. Görev insanıdır ve verilen görevleri kurallarına bağlı olarak, kararlı bir şekilde yerine getirir.",
+        "3": "Görev ve sorumluluklarını yerine getirmekle, bir başkasına devretmek arasında gel git yaşayabilir. Bazen görev ve sorumluluklarının tek başına üstesinden gelemeyeceğini düşünür.",
+        "2": "Kendisine verilen görev ve sorumluluklarından kaçar, görev insanı değildir, kendisine verilen işi yapıp yapmadığı veya doğru yapıp yapmadığının amiri tarafından takip edilmesi gerekir. ",
+        "1": "Çoğunlukla görevlerinden ve sorumluluklarından kaçar, görev insanı değildir, kendisine verilen işi yapıp yapmadığı veya doğru yapıp yapmadığının yöneticisi tarafından takip edilmesi gerekir. "
+    },
+    "33":
+    {
+        "1": "Düzenli olmaktan hiç hoşlanmaz, akışına bırakmak vazgeçilmezidir.",
+        "2": "Düzensizlikten hoşlanır, plan yapmaktan kaçınır.",
+        "3": "Onun için düzenli olmak veya olmamak bir fark yaratmaz.",
+        "4": "Düzeni sevse bile yer yer ipin ucunu kaçırabilir.",
+        "5": "Düzenli olmak vazgeçilmezidir."
+    },
+    "4":
+    {
+        "5": "Kendine oldukça güvenlidir, karşısına çıkabilecek engellerle ve baskılarla kolayca baş edebilir. Üzerindeki baskı ve stresi yönetebilecek güce sahiptir ve kolayca endişeye kapılmaz. Bu güçlü yapısı ile “tutarlı duygu durum” göstermektedir.",
+        "4": "Kendine güvenlidir, karşısına çıkabilecek engellerle ve baskılarla baş edebilir. Kolay endişeye kapılmaz, üzerindeki baskı ve stresi yönetebilecek güce sahiptir. Bu güçlü yapısı ile “tutarlı duygu durum” göstermektedir.",
+        "3": "Kimi zaman denge de kimi zaman tutarsız duygu durumu gösterebilir. Baskılara ve strese karşı mücadele gücü dalgalıdır.",
+        "2": "Hassas, kırılgan, önüne çıkan engellerle ve baskılarla baş edebilecek güçte değildir, yetersizlik hissine kolayca kapılabilir. Endişe etmeye yatkındır, baskı ve stresi yönetebilme becerisi zayıftır.  Bu nedenle  “duygusal durumu değişkenlik” gösterebilir.",
+        "1": "Hassas, kırılgan,  önüne çıkan engellerle ve baskılarla baş edebilecek güçte değildir, yetersizlik hissine kolayca kapılabilir. Duygusal değişkenliğinin altında çoğunlukla kolay endişeye kapılma, baskı ve stresi yönetememe yer almaktadır. Bu nedenle  “duygusal durumu değişkenlik” gösteren kategoridedir."
+    },
+    "9":
+    {
+        "1": "Düzenli olmaktan hiç hoşlanmaz, akışına bırakmak vazgeçilmezidir.",
+        "2": "Rahat bir kişilik yapısı yoktur, endişeye yatkınlığı, hassas ve kırılganlığı ile kendisini kolayca keyifsiz hissedebilir.",
+        "3": "Kimi zaman rahat kimi zaman gergin tutum sergileyebilir, kimi zaman keyifli kimi zaman keyifsizdir. ",
+        "4": "Kişilik olarak rahat bir yapısı vardır ve kendisini nadiren keyifsiz hisseder. ",
+        "5": "Kişilik yapısı çoğunlukla rahattır ve nadiren kendisini keyifsiz hisseder."
+    },
+    "14":
+    {
+        "5": "Çoğunlukla hemen endişelenmez, dirençlidir.",
+        "4": "Her şeye hemen endişelenmez, dirençlidir.",
+        "3": "Kimi zaman endişeli kimi zaman konrtollüdür.",
+        "2": "Kolaylıkla endişeye kapılır.",
+        "1": "Çoğunlukla herşeye endişe duyar ve çabuk kaygılanır."
+    },
+    "29":
+    {
+        "5": "Yaşadığı sorunlarla veya olumsuzluklarla baş etme mekanizması güçlü, hemen huzursuz olmayan ve çabuk morali bozulmayan, güçlü bir yapısı vardır.",
+        "4": "Yaşadığı sorunlarla veya olumsuzluklarla baş edebilen, kolayca huzursuz olmayan ve morali çabuk bozulmayan, güçlü bir yapısı vardır.",
+        "3": "Kimi zaman yaşadığı sorunlarla veya olumsuzluklarla baş etmekte zorlanır, kolayca huzursuz olur, morali çabuk bozulur, kimi zaman pek umursamaz.",
+        "2": "Yaşadığı sorunlarla veya olumsuzluklarla baş etmede zorluk yaşayan, kolayca huzursuz olup, morali bozulabilen, huzursuz yapısı vardır.",
+        "1": "Çoğunlukla yaşadığı sorunlarla veya olumsuzluklarla baş etme mekanizması zayıftır, kolayca huzursuz olur, morali çabuk bozulur, huzursuz, güvensiz yapısı vardır."
+    },
+    "34":
+    {
+        "5": "Çoğunlukla ruhsal olarak değişken yapıda değildir ve ruhsal olarak oldukça dengede gözükmektedir.",
+        "4": "Ruhsal olarak değişken yapıda değildir ve ruhsal olarak dengede gözükmektedir.",
+        "3": "Kimi zaman ruh halinde değişimler ve dengesizlikler olabilir.",
+        "2": "Ruhsal olarak değişken yapıdadır ve ruhsal dengesini korumakta güçlük çekebilir.",
+        "1": "Çoğunlukla ruh hali çok sık değişir, ruhsal dengesini korumakta güçlük çeker."
+    },
+    "49":
+    {
+        "5": "Çoğu zaman kendisini keyifli hisseder.",
+        "4": "Kendisini keyifli hisseder.",
+        "3": "Kimi zaman keyifli kimi zaman keyifsiz hissedebilir.",
+        "2": "Bazen kendisini keyifsiz hisseder.",
+        "1": "Çoğunlukla kendisini keyifsiz hisseder."
+    },
+    "5":
+    {
+        "1": "Kelime dağarcığı zayıftır.",
+        "2": "Kelime dağarcığı zengin değildir.",
+        "3": "Entelektüel anlamda kapasitesinden emin değil.",
+        "4": "Kelime dağarcığı zengindir ve entelektüel bilgisi vardır. ",
+        "5": "Kelime dağarcığı zengindir ve zor kelimeler kullanmayı sever. Entelektüel zekası gelişmiştir."
+    },
+    "15":
+    {
+        "1": "Olayları zihninde asla canlandırmaz.",
+        "2": "Olayları genellikle zihninde canlandırmaz.",
+        "3": "Olayları zihninde bazen canlandırabilir bazen canlandıramaz.",
+        "4": "Olayları zihninde canlandırır.",
+        "5": "Olayları zihninde sürekli düşünür ve canlandırır."
+    },
+    "20":
+    {
+        "5": "Yaratıcı, değişik, cesur ve artistik fikirleri vardır. Geleneksel olmayan, ileri görüşlü yapısıyla yeniliğe ve gelişime açık, hayal gücü kuvvetli bir örüntü çizmektedir.",
+        "4": "Yaratıcı, değişik ve artistik fikirleri vardır. Geleneksel olmayan, ileri görüşlü yapısıyla yeniliğe ve gelişime açık bir örüntü çizmektedir.",
+        "3": "Zaman zaman yaratıcı, zaman zaman yeniliğe kapalı, zaman zaman da yeniliğe açık olabilir.",
+        "2": "Geleneksel, bildiği ve tanıdığı hayatın dışına çok çıkmak istemeyen yapıdadır. İlgi alanları sınırlı, tutucu, bildiğinden şaşmayan yapısı ile yeniliğe ve  gelişime dirençlidir, hayal gücü zayıftır.",
+        "1": "Tanıdığı hayatın dışına asla çıkmak istemeyen yapıdadır. İlgi alanları sınırlı, tutucu, bildiğinden asla şaşmayan yapısı ile yeniliğe ve gelişime son derece dirençlidir, hayal gücü zayıftır."
+    },
+    "25":
+    {
+        "1": "Hiçbir zaman orijinal ve yaratıcı fikirler üretemez.",
+        "2": "Orijinal ve yaratıcı fikirler üretmekte zorluk çeker.",
+        "3": "Kimi zaman orijinal fikirler üretebilir.",
+        "4": "Orijinal, açık fikirli, yaratıcı, değişik fikirleri vardır.",
+        "5": "Orijinal, açık fikirli, yaratıcı, diğerlerinden farklı ve değişik fikirleri vardır."
+    },
+    "35":
+    {
+        "1": "Olayları anlama ve algılamada yavaştır.",
+        "2": "Olayları anlama ve algılamada hızlı değildir.",
+        "3": "Olayları anlama ve algılama da kimi zaman hızlı kimi zaman yavaştır.",
+        "4": "Analitik zekaya sahiptir.",
+        "5": "Analitik zekası yüksektir."
+    }
+}
