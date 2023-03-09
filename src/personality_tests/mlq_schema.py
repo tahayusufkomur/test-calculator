@@ -1,4 +1,5 @@
 import json
+import pathlib
 
 import pandas as pd
 
@@ -8,10 +9,11 @@ from src.personality_tests.mlq_ast import MlqAst
 class MlqSchema(MlqAst):
 
     name = "mlq-schema"
+    current_path = pathlib.Path(__file__).parent.resolve()
     type = 2
     description = "MLQ Schema report"
     schema = json.load(
-        open('/Users/tkoemue/ws/projects/merve/five-factor-test-calculator/schema.json', encoding="utf-8"))
+        open(f'{current_path}/files/schema.json', encoding="utf-8"))
     schema_report = {}
     schema_output_path = "raporlar/excel_reports/mlq_reports/schema_report.xlsx"
 
